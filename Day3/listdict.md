@@ -16,10 +16,10 @@ range.
 ## Dictionary
 
 
-'''
+```
 office = { 'john': 109, 'jason' : 108 }
 office['mary'] = 201
-'''
+```
 
 iterate through dictionaries.
 
