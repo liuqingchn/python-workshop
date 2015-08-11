@@ -1,4 +1,5 @@
 
+## Basic Object-oriented concepts
 
 ```
 class Vector:
@@ -20,3 +21,9 @@ Concepts:
 Exercises:
 
 - Define the "norm" of a vector.
+
+## Error handling
+
+```
+raise Exception("This is an error.")
+```
