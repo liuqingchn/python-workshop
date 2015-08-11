@@ -58,4 +58,10 @@ with open('workfile', 'r') as f:
    data = f.read()
 ```
 
+## File processing
+
+- Process a file one line at a time.
+- String splitting.
+- List
+
 
