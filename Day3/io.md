@@ -48,8 +48,9 @@ Understand:
 - f.write()
 - the type() function
 - Other methods of TextIOWrapper; https://docs.python.org/3/
+- What is the closed attribute?
 
-f.closed, f.close(): must close files after reading or writing!
+Must close files after reading or writing!
 
 Short cut:
 ```
