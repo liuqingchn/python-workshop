@@ -49,6 +49,12 @@ Understand:
 - the type() function
 - Other methods of TextIOWrapper; https://docs.python.org/3/
 
+f.closed, f.close(): must close files after reading or writing!
 
+Short cut:
+```
+with open('workfile', 'r') as f:
+   data = f.read()
+```
 
 
