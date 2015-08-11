@@ -36,3 +36,5 @@ Exercises
 + Given a list of numbers [a1, ..., aN] and a function f, return the list [f(a1), ..., f(aN)].
 + Given a list of numbers, return the reverse of the list.
 + Given two lists A and B, create a dictionary whose keys are items in A and values are items in B.
++ Given a file of words, for each unique word in the file, print out each its count/frequency.
+
