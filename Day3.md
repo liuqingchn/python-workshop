@@ -10,3 +10,9 @@ Goals:
 - Review of loops and iterations.
 - Generate well-formated texts and save them to files.
 
+Code template:
+
+```
+for x in range(15):
+   print(repr(x).rjust(2), repr(x*x*x).rjust(4))
+```
