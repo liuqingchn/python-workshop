@@ -30,7 +30,25 @@ Tasks:
 f = open('workfile', 'r')
 ```
 
+Understand:
+
+- Error codes
 - the dir() function
 - f.read()
 - f.readline()
 - iterate a file each line at a time.
+
+## Writing to files
+```
+f = open('workfile', 'w')
+```
+
+Understand:
+
+- f.write()
+- the type() function
+- Other methods of TextIOWrapper; https://docs.python.org/3/
+
+
+
+
