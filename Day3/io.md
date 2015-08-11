@@ -65,3 +65,8 @@ with open('workfile', 'r') as f:
 - List
 
 
+Exercises:
+
+- Given a FASTA file, return the DNA sequence(s) in the file.
+
+
