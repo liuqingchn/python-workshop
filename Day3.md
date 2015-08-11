@@ -7,6 +7,8 @@
 ## Print and format column-wise texts
 
 Goals:
+
+- Printing with the print() function.
 - Review of loops and iterations.
 - Generate well-formated texts and save them to files.
 
@@ -14,5 +16,21 @@ Code template:
 
 ```
 for x in range(15):
-   print(repr(x).rjust(2), repr(x*x*x).rjust(4))
+   print(repr(x).rjust(2), repr(x*x).rjust(3))
 ```
+
+Tasks:
+
+- Add header.
+- Add one more column (x^3) formatted to 4 spaces, right justified.
+
+## Reading from files
+
+```
+f = open('workfile', 'r')
+```
+
+- the dir() function
+- f.read()
+- f.readline()
+- iterate a file each line at a time.
