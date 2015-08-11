@@ -8,6 +8,15 @@ class Vector:
       self.v = v
       Vector.counter += 1
 
-   def norm(self)
-      return math.sqrt(self.u*self.u + self.v*self.v)
 ```
+
+Concepts:
+
+- Class definition
+- Object creation
+- Special methods
+- Object attributes versus class attributes
+
+Exercises:
+
+- Define the "norm" of a vector.
