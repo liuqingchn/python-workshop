@@ -3,6 +3,11 @@
 
 - Search and install biopython module using conda
 - Documentation: read the source (http://biopython.org/DIST/docs/api/)
+
+## Search and download articles
+
+(1) Search, (2) Fetch, (3) Parse
+
 - Bio.Entrez: esearch, efetch
 - Bio.Medline: parse
 
@@ -19,4 +24,3 @@ records = Medline.parse(handle)
 ```
 
 - investigate "records".  How?
-
