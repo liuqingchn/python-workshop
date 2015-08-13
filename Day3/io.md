@@ -68,5 +68,7 @@ with open('workfile', 'r') as f:
 Exercises:
 
 - Given a FASTA file, return the DNA sequence(s) in the file.
+- Given a column-formated file, create a dictionary called Column with keys from the header and values from the rows.   Example: Column['Species'] corresponds to the column with Species.
+- Given a column-formated file with N rows (not counting the header), create a list called Rows of N dictionaries.  Rows[0] is a dictionary with keys from the header and values from the first row.   Example: Rows[0]['Species'] corresponds to the first value in column Species.
 
 
