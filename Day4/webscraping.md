@@ -1,4 +1,5 @@
 
+Goal: download descriptions of genes that are related to a particular key.
 
 ## Regular expression
 
