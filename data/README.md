@@ -3,3 +3,4 @@
 
 - mpg dataset contains mileage information for several models of different car manufacturers.
 
+- Crime rates by state in 2005, count per 100,000 persons.
