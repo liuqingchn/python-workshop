@@ -25,5 +25,5 @@ class Table:
 
 ## Input: a file and separator string
 ## Output: a Table object
-def new_table(file, separator="\t"):
+def read(file, separator="\t", types=None):
    pass
