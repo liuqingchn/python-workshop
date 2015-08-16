@@ -12,15 +12,14 @@
 - Bio.Medline: parse
 
 ```
-from Bio import Entrez
-handle = Entrez.esearch(db="pubmed", term="brca1", retmax=100)
-record = Entrez.read(handle)
-idlist = record["IdList"]
+from Bio import Entrez, Medline
 
+Entrez.email = "A.N.Other@example.com"
+search_handle = Entrez.esearch(db="pubmed", term="breast+cancer", retmax=10)
+search_result = Entrez.read(search_handle)
 
-from Bio import Medline
-handle = Entrez.efetch(db="pubmed", id=idlist, rettype="medline", retmode="text")
-records = Medline.parse(handle)
+fetch_handle = Entrez.efetch(db="pubmed", id=search_result['IdList'], rettype="medline", retmode="text")
+records = Medline.parse(fetch_handle)
 ```
 
 - investigate "records".  How?
