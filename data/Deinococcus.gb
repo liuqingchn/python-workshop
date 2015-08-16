@@ -1,0 +1,750 @@
+LOCUS       NC_000959              45704 bp    DNA     circular CON 22-DEC-2014
+DEFINITION  Deinococcus radiodurans R1 plasmid CP1, complete sequence.
+ACCESSION   NC_000959
+VERSION     NC_000959.1  GI:10957530
+DBLINK      BioProject: PRJNA57665
+KEYWORDS    RefSeq.
+SOURCE      Deinococcus radiodurans R1
+  ORGANISM  Deinococcus radiodurans R1
+            Bacteria; Deinococcus-Thermus; Deinococci; Deinococcales;
+            Deinococcaceae; Deinococcus.
+REFERENCE   1  (bases 1 to 45704)
+  AUTHORS   White,O., Eisen,J.A., Heidelberg,J.F., Hickey,E.K., Peterson,J.D.,
+            Dodson,R.J., Haft,D.H., Gwinn,M.L., Nelson,W.C., Richardson,D.L.,
+            Moffat,K.S., Qin,H., Jiang,L., Pamphile,W., Crosby,M., Shen,M.,
+            Vamathevan,J.J., Lam,P., McDonald,L., Utterback,T., Zalewski,C.,
+            Makarova,K.S., Aravind,L., Daly,M.J., Minton,K.W.,
+            Fleischmann,R.D., Ketchum,K.A., Nelson,K.E., Salzberg,S.,
+            Smith,H.O., Venter,J.C. and Fraser,C.M.
+  TITLE     Genome sequence of the radioresistant bacterium Deinococcus
+            radiodurans R1
+  JOURNAL   Science 286 (5444), 1571-1577 (1999)
+   PUBMED   10567266
+REFERENCE   2  (bases 1 to 45704)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-OCT-2000) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 45704)
+  AUTHORS   White,O., Eisen,J.A., Heidelberg,J.F., Hickey,E.K., Peterson,J.D.,
+            Dodson,R.J., Haft,D.H., Gwinn,M.L., Nelson,W.C., Richardson,D.L.,
+            Moffat,K.S., Qin,H., Jiang,L., Pamphile,W., Crosby,M., Shen,M.,
+            Vamathevan,J.J., Lam,P., McDonald,L., Utterback,T., Zalewski,C.,
+            Makarova,K.S., Aravind,L., Daly,M.J., Minton,K.W.,
+            Fleischmann,R.D., Ketchum,K.A., Nelson,K.E., Salzberg,S.,
+            Smith,H.O., Venter,J.C. and Fraser,C.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (03-NOV-1999) The Institute for Genomic Research, 9712
+            Medical Center Dr, Rockville, MD 20850, USA
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from AE001827.
+            RefSeq Category: Reference Genome
+                        TYS: Designated Type Strain
+                        UPR: UniProt Genome
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..45704
+                     /organism="Deinococcus radiodurans R1"
+                     /mol_type="genomic DNA"
+                     /strain="R1"
+                     /db_xref="taxon:243230"
+                     /plasmid="CP1"
+     gene            73..384
+                     /locus_tag="DR_C0001"
+                     /db_xref="GeneID:1799891"
+     CDS             73..384
+                     /locus_tag="DR_C0001"
+                     /note="identified by sequence similarity; putative"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="cytochrome P450-related protein"
+                     /protein_id="NP_051675.1"
+                     /db_xref="GI:10957549"
+                     /db_xref="GeneID:1799891"
+                     /translation="MCSPPRRYSGSTDAEILPYVVEAEPSSPVVHLDISQANRDESVF
+                     TQAQQFCPHRKNVRQHLSFGKGEHACLGQSLVYTICRVMAHALELLSAPAGQRTDQVS
+                     Q"
+     gene            725..1951
+                     /locus_tag="DR_C0002"
+                     /db_xref="GeneID:1799920"
+     CDS             725..1951
+                     /locus_tag="DR_C0002"
+                     /note="identified by sequence similarity; putative"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="phosphoenolpyruvate synthase-related protein"
+                     /protein_id="NP_051676.1"
+                     /db_xref="GI:10957531"
+                     /db_xref="GeneID:1799920"
+                     /translation="MSHLVRLEDISLTGIPDDELGRLLQEIIELCGYAWDVHHRLTYP
+                     EVEAFYNWCRINIAGVTNEELHELFLGQDFLSLRQARGFWKLAHIASSLTEGCVEEDS
+                     DWATQPQFLAELSQFVSKHGLYLTTYCDIGRPSWEEDPSAIVAIVKRYMAANLPDPSL
+                     RIEQQILKRQERCQVLSAALPIDKRPEFDRLYLSAFSSLHLREDHVEWIEQRPLALLR
+                     RVCKAFGIRLHALGLIEDPLDCAYFTLTELYQFACGISIAQALRELPARKSSYESDLK
+                     FKPPRFIREAPRSSPDDVSKLLKGMGISRGTVSGRVCSVRSVGEAFEKLSWGDILVCP
+                     EIGPDWTPLFSIAGGLVIESFAGGMLSHAALVAREYRIPAILGIKSACSLLDGRYVDL
+                     DGTTGLVEIGRRFESM"
+     gene            1938..2801
+                     /locus_tag="DR_C0003"
+                     /db_xref="GeneID:1799906"
+     CDS             1938..2801
+                     /locus_tag="DR_C0003"
+                     /note="identified by sequence similarity; putative"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="phosphoenolpyruvate synthase-related protein"
+                     /protein_id="NP_051677.1"
+                     /db_xref="GI:10957548"
+                     /db_xref="GeneID:1799906"
+                     /translation="MNQCDDCKNSLLCDSGCLPSILPLELVDRTMLERVGGKAANLGE
+                     IAGMGFEIPNGCVITIDVFDAALNAVSLPVGGKRYGFSFMNLHFPQDLYPHLKEWAER
+                     LAGPVAVRSSAVFEDSDQASYAGQLSSILNVEGFDQIVVAVEECWHSIFGQRVKTYSK
+                     LHNDGIDRLRMAVIVQEQVFPKAAGVMFTAHPITGNPEHTVIEAVSGIGNKLVDGVGT
+                     PNHWVIDRNSREVIESHIFNYVDVSEAELKALHDLGIKVQTLFGKPQDIEWALKDGKP
+                     LVLQCRPITSM"
+     mobile_element  2992..4059
+                     /rpt_family="IS630"
+                     /mobile_element_type="insertion sequence:ISDra3C"
+                     /db_xref="ISFinder:ISDra3"
+     gene            3325..3520
+                     /locus_tag="DR_C0004"
+                     /db_xref="GeneID:1799914"
+     CDS             join(3325..3348,3350..3520)
+                     /locus_tag="DR_C0004"
+                     /exception="artificial frameshift"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative transposase"
+                     /protein_id="NP_277099.1"
+                     /db_xref="GI:15789332"
+                     /db_xref="GeneID:1799914"
+                     /translation="MDDLPRAGVIGLQFEVWYHADHVRKLLHQLGFSPQKPESRALER
+                     DEQAVQTWVEQTLPSLKKKG"
+     gene            complement(4763..5320)
+                     /locus_tag="DR_C0005"
+                     /db_xref="GeneID:1799921"
+     CDS             complement(4763..5320)
+                     /locus_tag="DR_C0005"
+                     /note="identified by sequence similarity; putative"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="resolvase"
+                     /protein_id="NP_051678.1"
+                     /db_xref="GI:10957532"
+                     /db_xref="GeneID:1799921"
+                     /translation="MTRGQRVGYIRVSTTDQNTARQLDGVELDRIFEDKASGKDARRP
+                     RLQELLAYVREGDTVIVHSMDRLARNVDDLRRIVTELSGRGVRVEFQREGVVFTSEDN
+                     PMNTLLLTMLGAVAEFLRAQNLENQREGIAKAKQAGKYKGRKRALTPEQVEQLRARVA
+                     AGEKKTVLARELGVNRDTLYEALKS"
+     gene            complement(5471..6205)
+                     /locus_tag="DR_C0006"
+                     /db_xref="GeneID:1799889"
+     CDS             complement(5471..6205)
+                     /locus_tag="DR_C0006"
+                     /note="identified by sequence similarity; putative"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="NP_051679.1"
+                     /db_xref="GI:10957545"
+                     /db_xref="GeneID:1799889"
+                     /translation="MIDFHVHLDLYPDPVAVARACEERQLTVLSVTTTPAAWRGTLAL
+                     AAGRPHVWTALGFHPEVVSERAADLPWFDRYLPETRFVGEVGLDGSPSLRGTWTQQFA
+                     VFQHILRRCEDHGGRILSIHSRRAESEVLNCLEANPRSGTPILHWYSGSVTELRRAIS
+                     LGCWFSVGPTMVRTQKGAALIRSMPRDRVLTETDGPFLELDGQAALPWDVKSVVEGLS
+                     KIWQIPASEVERIVKENVSRLLGTVR"
+     gene            complement(6202..7473)
+                     /locus_tag="DR_C0007"
+                     /db_xref="GeneID:1799894"
+     CDS             complement(6202..7473)
+                     /locus_tag="DR_C0007"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="NP_051680.1"
+                     /db_xref="GI:10957550"
+                     /db_xref="GeneID:1799894"
+                     /translation="MRHFLCTPNPPAAVSNGSTIVALYGRRLNTHQVGIGASLREAVI
+                     RKRWPIPSQSWDFLSFTLSVLAADLSSPRSESPDGWTRELSLTISVTDADLWNAQARA
+                     LEEALAYLTTDRWSITFSPGGYQYQPKEPIGPLIEDCVALLSGGLDSLVGMIDLVAEG
+                     HNPLAVSQLVAGDAAKQREIATDLGRTTHLQLNHAAECPTPGEDSQRSRTLIFLAYAV
+                     LAATATTRFQQARAVPIYINENGFIALNPPLTPMRIGSLSTRTAHPVFLQQLQAVLQA
+                     VGLNVALINPYALKTKGEMLTECANQTVLSRWASATTSCGRYRRFGYKHCGRCIPCQV
+                     RRAAFLAWGQPDRTEYVFYPLGQNDDSHALFDDVRSLALAIITVEQEGVQRFLGASLS
+                     DRRIGDRAAMEAMVKRSMEELGALHRLLKVP"
+     gene            complement(7470..8057)
+                     /locus_tag="DR_C0008"
+                     /db_xref="GeneID:1799905"
+     CDS             complement(7470..8057)
+                     /locus_tag="DR_C0008"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="NP_051681.1"
+                     /db_xref="GI:10957560"
+                     /db_xref="GeneID:1799905"
+                     /translation="MSSYVKSGHGGSKTAAQRMASTSATAGRLFSFLSAPPVGTGPGQ
+                     LRSVDPRLQPGRSAQDIIDAVIEGVQPVNGTLDAEASRHAINXALSELLIQHPQADLL
+                     ALTADQLELVVELYVAQDVFFHIELDVGQALRQQGVSALMLTDRLRQARDYVQATVSG
+                     AFDELRRQGQAITAPSVQAVTQRALELTMEVFAKG"
+     gene            complement(8308..10218)
+                     /locus_tag="DR_C0009"
+                     /db_xref="GeneID:1799898"
+     CDS             complement(8308..10218)
+                     /locus_tag="DR_C0009"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="NP_051682.1"
+                     /db_xref="GI:10957551"
+                     /db_xref="GeneID:1799898"
+                     /translation="MWADTETDRDYLNFTSVANTVAELIVGSAGNPVSIGVSGAWGVG
+                     KSSMIKLIRRNLNERQSGLPASNGVENSANAPRSGTATPKMVFVEFNAWLYQGYDDAR
+                     AALMDVIARELTAEAERQKTGMDHVKDFVSRINWMRGARVAAHLGAAAFGLPPVGLIG
+                     EIASAISGLRDGKIEGKDIEGAEKVMGQAVTTLGGLLKAAPQTSPPQEIQALRSSFET
+                     ALEKLDVVLVVLIDDLDRCLPETTISTLEAIRLFLFLKRTAFVIAADDNMIKHAVRKH
+                     FEGMNDEAAVINYFDKLIQVPVRVPPLSTQDVRAYLLLLLVEDSELEAEKKDRVVATV
+                     NKALREGWSGTRLDGDFIVNQHPDLPEPLKXPLRIADHLAPLLATANGIDGNPRLIKR
+                     FLNALSIRRAVAAAHGTDVPEDVLAKMLLFERLGTPTVMSELIRQVGLDPNGKPSFLQ
+                     EWETQALAGEPLSLPSPWNEEFVEKWLALPPVLSDIDLRPAIHVGRENAPLFIDGPGY
+                     TKAASDVLTAMKANPGSGGQLRQELAALSPRDVGMVMDTLLREAQREERWGAPRILDD
+                     CLAVSRLHDSQAGKLARFLKNRPMTQLEPSLIPKISGEPWAAELFTDWKTSGAPRHVV
+                     NAIEAQERRRRA"
+     gene            complement(10441..10998)
+                     /locus_tag="DR_C0010"
+                     /db_xref="GeneID:1799924"
+     CDS             complement(10441..10998)
+                     /locus_tag="DR_C0010"
+                     /note="identified by sequence similarity; putative"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="NP_051683.1"
+                     /db_xref="GI:10957533"
+                     /db_xref="REBASE:DraRORFC10P"
+                     /db_xref="GeneID:1799924"
+                     /translation="MRGELGQLLGAYILFYKGPHELYIPVTAANQQNFTQPIYIGKAV
+                     PKGDRTGEGAKKAVLENSLYKRLYEHSRSIAQVENLDVADFYFKVVPTTLHLSAWVES
+                     VLISKFVPAWNRHIDGFGNHDPGSGRYNQKRSVWDQVHPGRSWATRMSNLAIYDVAEL
+                     RSRISARHHAKEVAVEKAIEEASEK"
+     gene            complement(11512..12403)
+                     /locus_tag="DR_C0011"
+                     /note="This region contains a pseudogene, one or more
+                     premature stops, and is not the result of a sequencing
+                     artifact; similar to PID:1162996 percent identity: 52.81;
+                     identified by sequence similarity; putative;transposase,
+                     pseudogene"
+                     /db_xref="GeneID:1799910"
+     gene            12794..13333
+                     /locus_tag="DR_C0012"
+                     /db_xref="GeneID:1799923"
+     CDS             12794..13333
+                     /locus_tag="DR_C0012"
+                     /note="identified by sequence similarity; putative"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="GerE family transcriptional regulator"
+                     /protein_id="NP_051684.1"
+                     /db_xref="GI:10957534"
+                     /db_xref="GeneID:1799923"
+                     /translation="MLVRNAQLQVVSTQPLIARLLEDALHARLPEFPAASLVLDWPVG
+                     FAFQVVTPESAASSFVLTQNACPEYLDDLWNLGLLGLAYRSRTLEELAELLRRAETQE
+                     RVRLTPAQRSPLTPAEGDLLRLVARGLANKEIARELGIANQTVQNGLTRVFQKLGCDG
+                     RSEAILHYWGLTAATKEPL"
+     gene            13519..14157
+                     /locus_tag="DR_C0013"
+                     /db_xref="GeneID:1799902"
+     CDS             13519..14157
+                     /locus_tag="DR_C0013"
+                     /note="identified by sequence similarity; putative"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="N-acetylmuramoyl-L-alanine amidase, putative"
+                     /protein_id="NP_051685.1"
+                     /db_xref="GI:10957546"
+                     /db_xref="GeneID:1799902"
+                     /translation="MSKAYSFVRWPLRSALRTTVSTRFSLFHDPFLGKEQTMPYDVLI
+                     DPGHGGADSGAVNSKTNTLEKNLNMDSSLSVEYFLGQRGRTTKMTRTTDVDIDNYQRA
+                     YQGVREGAKIFVSVHHDSAEVGRSLVYHDNKAESIRLANKVAGYMGGISVVSMNQSPH
+                     GRLYIADFTTGPSILIEMGPTRPYTRDERIARCQLRPTPSRTSSPTTSRKLS"
+     gene            complement(14198..14701)
+                     /locus_tag="DR_C0014"
+                     /db_xref="GeneID:1799912"
+     CDS             complement(14198..14701)
+                     /locus_tag="DR_C0014"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="NP_051686.1"
+                     /db_xref="GI:10957561"
+                     /db_xref="GeneID:1799912"
+                     /translation="MIKVWRTGACTSALLLSSVGLTGGMAGPSTLRDGSFRLIYQVQP
+                     RSQHLLQASDGLYGVIGSDEYVRTTQMVVPVSVTVTYVHQTNACDERQCDMLGHQSFV
+                     LNKSGSTPGWRVESNRIILKLDDAQGRLRREAKKRYGSRYYLTSYLVTLKFSNGKSYR
+                     TVLIGLT"
+     gene            14863..16107
+                     /locus_tag="DR_C0015"
+                     /db_xref="GeneID:1799895"
+     CDS             14863..16107
+                     /locus_tag="DR_C0015"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="NP_051687.1"
+                     /db_xref="GI:10957552"
+                     /db_xref="GeneID:1799895"
+                     /translation="MRRTVRLALFQFLVATLASFTPTLAAKPSMQWAVTRSATPAPSS
+                     VTTDSTRVYLVEGQRLQARRLSDGKLIWQAGTGISSPLVVERGIVYVTGRAREVFAFN
+                     ATDGRKLWSTVLTGVPEQSHGGWADTLSVDHGMLLVASTRGIWGVNARTGQQRWFREL
+                     LDARGPLVQLGSITVWQVSTPLKSFTFGLQSETGREVWRVQTGATPLLQEDKYVFVTV
+                     PGSPSAYRMIDVPSGRSIRVDHNFRVGAPSGQQPAQGTPGELFVTGMEVCVRVTNGEV
+                     DRLNCVNRQQGRRTGGEADLLRQALGEHPVKVRRLLNASLPSGCVGTAVKTAVGVVLV
+                     DAPDMTKTRLSQLPSRAFACFFPVSNTLKVVPVGGQLIAIDEKGRQVWVVNVQGRVQQ
+                     VIPVDGRLLVATSAELRILSWP"
+     gene            complement(16040..16852)
+                     /locus_tag="DR_C0016"
+                     /db_xref="GeneID:1799904"
+     CDS             complement(16040..16852)
+                     /locus_tag="DR_C0016"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="NP_051688.1"
+                     /db_xref="GI:10957562"
+                     /db_xref="GeneID:1799904"
+                     /translation="MAYVYGKATYNGITLHYMKTTASNIVLRRINSNVTASGHYGING
+                     GFYILGEPIESQPLLSLTVNNDVPVGSLIYQDTSYGSGWANVGYARGTVFHDTVSRTI
+                     GVRVVSNASQISVTNRSNYWAQGGVSMSLQNDANWRDIAVTQQNLPNPDGVIQRAGLV
+                     YNEAGYVYLVMTASGQLGATAGQFRQAIKQTLGALDGIFLDSSGSAQMLCAEFRNAGD
+                     GRKSRPWSASLAEVGCNGAALLRSAAXPRVLTARRVCGVQHWWRPISAHPQE"
+     gene            17629..20115
+                     /locus_tag="DR_C0017"
+                     /db_xref="GeneID:1799897"
+     CDS             17629..20115
+                     /locus_tag="DR_C0017"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative transposase"
+                     /protein_id="NP_277100.1"
+                     /db_xref="GI:15789333"
+                     /db_xref="GeneID:1799897"
+                     /translation="MSDHPRPLEHRSPGRAGGAAEADGIGGRPAGRPRGPRPSWLSPA
+                     TLRTNSEKRGVESVEEQIEKLRLLRRLKLPQTLFADVAPHVLTRYRERASNESPSHFR
+                     AQIPPVRLTLLAAFCAARAAELTDALVTHLMDMVHHINVKAERRVERNFVAEFRRVHN
+                     KDRILERLLEAALGSPDGTVREVLFPVVDEQTLRDLLREYKEKGGFRQQVHTIVRGTY
+                     RSHYRRMIPWLLTELSFRSNNHRHQPVIDALSLLGRYVDSNARIYPSEEHIPVGGVID
+                     RNIRDLILERGPDGGTRVNRVNYELCVLSALRDALRSREIWVVGADKYRDPDKDLPQD
+                     FEARKESYFQALRQPQEVDTFVQGLEQQLKDALVMLHDGLPKNPGVRVVARDGGRFVV
+                     TPLTRQPDPPFYDTLKGEVGRQFWNTQLLDVLVEVDRRAGITPHFKSFMTRENMPRDQ
+                     LQQRLLLCLYGLGTNTGLKRVAAGQDGVGYSDLKYVRRHYIHRDALRAANAXXVNATL
+                     AARRPDIWGEGTTSCASDAKKYAAWDGNLRTQRSIRYGGDGVMIYWHVERRASCIYSS
+                     MKSCSSSEVAAMIEGVLRHCTTLSVEKNYVDTHGQSEPGFAFTHLLGFKLMPRLADIA
+                     HQRLYLPNMAFAAQVPNLAAVQAQRSIRWDLIRQQYEPMVKYATALRLGLADPKAILQ
+                     RFTRANAQHPTYAALCELGKVLRTIFVCEYLHREEVRREIHEGLNVIETWNGTTNFIF
+                     FGKGGEISTNNLEGQEISMLALQLLQNSLVYVNTLMIQRVLGSETWRQRMTAEDWRAL
+                     SPLMHHHINPYGEFKLDLTHRLKLEVEVDA"
+     gene            20112..20822
+                     /locus_tag="DR_C0018"
+                     /db_xref="GeneID:1799925"
+     CDS             20112..20822
+                     /locus_tag="DR_C0018"
+                     /note="identified by sequence similarity; putative"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="integrase/recombinase XerD, putative"
+                     /protein_id="NP_051689.1"
+                     /db_xref="GI:10957535"
+                     /db_xref="GeneID:1799925"
+                     /translation="MTQTRRTGAKKKARELAKLLRAERPDYAYLKEVFRHLRAELEVE
+                     VPGPSRRLPWVPTEEQVRAFYEAVWRTRRTADLVLIKTFLYTGVRVSELVMMRLADVD
+                     LDACQIRVNLGKGSKDRVVPFPAPFKETLALHIGQRRQQGGIYLFESSWKRRYSXRGV
+                     RRMFERYTALAEIDRSLSPHKLRHFLLTWLKKQGLDDALIQPYSGHASRQSLEIYSRL
+                     ALGEAQREYDRVIGRFPV"
+     gene            complement(20836..21270)
+                     /locus_tag="DR_C0019"
+                     /db_xref="GeneID:1799916"
+     CDS             complement(20836..21270)
+                     /locus_tag="DR_C0019"
+                     /note="identified by sequence similarity; putative"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="transposase-related"
+                     /protein_id="NP_051690.1"
+                     /db_xref="GI:10957536"
+                     /db_xref="GeneID:1799916"
+                     /translation="MTTSVRRCPRRQKPTVGPIKLDGADCSRFPGSVKSTESAVQQAT
+                     ALTGHFKAHASHLRIDTLQRLIDVLLAMIAARSVNHHDLSAHMPGMSTPQXKKRRADR
+                     TFRDEQLDMGFFIALLVVHLPPGKVLLSLDGGGLRKLLSSAK"
+     gene            21579..22882
+                     /locus_tag="DR_C0020"
+                     /note="This region contains an authentic frame shift and
+                     is not the result of a sequencing artifact"
+                     /db_xref="GeneID:1799900"
+     CDS             join(21579..22070,22070..22882)
+                     /locus_tag="DR_C0020"
+                     /exception="artificial frameshift"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="modification methylase, putative"
+                     /protein_id="NP_277101.1"
+                     /db_xref="GI:15789334"
+                     /db_xref="GeneID:1799900"
+                     /translation="MTQPLLFDLPTPRPTYRDTAFASNKTLAMHRWVNWIAGFSSEFV
+                     QHALELHLPDPNPEQVVLDPFGGVGTTPITAFLRGHSVVSYDINPFPLLVQRAKLRAI
+                     QDVTPAEFAQQIEAFTAHMATGGVPKSKVPQGFTSRTPFYSEKVLVKVLHVWDFINEV
+                     ADEDLRDXFQVAFGATMVSYSNYSYEPSLGSRAAAGKPDIEDADVAQVMRDKLLEMHA
+                     DLLGVQGIKLGGQTAQVYQGSFMRSELPDSSVDLMVTSPPYLNNYHYLRNTRPHLYWL
+                     GYATSPKDLRYLELDNYGKYWQTVRDAKYQTSLIFDSPWLQDLVNQLAGVQSDRGVYG
+                     GQGWANYATEYFNDTYRFLQKTQAVLRPGAKALIVVGNSIVKGTNLPIDEVFTHIAQH
+                     LGFSGHDIHMVRDSRIGSSIVGTGLRSEGKGRLYEAVVELTR"
+     gene            complement(22901..23269)
+                     /locus_tag="DR_C0021"
+                     /db_xref="GeneID:1799903"
+     CDS             complement(22901..23269)
+                     /locus_tag="DR_C0021"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="NP_051691.1"
+                     /db_xref="GI:10957553"
+                     /db_xref="GeneID:1799903"
+                     /translation="MTGRKHFYESSPGGTIAAWKKEAELIKGVNQVTKELIALKRWAF
+                     VEPDTYSAYDSEVRKRVKIWLTSVRHRKAEQAQALVFKYVVPWRYNPGKLPSKLALAH
+                     REALRAAEGRDRGRKMKETL"
+     gene            complement(23296..23892)
+                     /locus_tag="DR_C0022"
+                     /db_xref="GeneID:1799893"
+     CDS             complement(23296..23892)
+                     /locus_tag="DR_C0022"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="NP_051692.1"
+                     /db_xref="GI:10957563"
+                     /db_xref="GeneID:1799893"
+                     /translation="MPIWSRYRYRVEDYWPLILVLRQSNKYTHGVLVPLTSAQRADPK
+                     RRRTKGEKASEESRWLTSVELEERALDRYVEDLSLVGKSEEELAEYRRQNFQFYPDPE
+                     SPDVLAHREEGPKQVKGSRVIPVPEGWVILGRKAKYRGLPELQDLRCAPSIRLVPFII
+                     RWRPEFSDQKLGRAEARPGRADQTLEEGRLSLQVNRDS"
+     gene            24950..25609
+                     /locus_tag="DR_C0023"
+                     /db_xref="GeneID:1799899"
+     CDS             24950..25609
+                     /locus_tag="DR_C0023"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="NP_051693.1"
+                     /db_xref="GI:10957559"
+                     /db_xref="GeneID:1799899"
+                     /translation="MASAPSEPTFPVSSSQWLQLRGLGNMETLRQMLKLAEETWGIDL
+                     RAGAGGGRQIGADLDALLVRSFARARSEQRAVLEVWREQLEEVKLPVALTAVTRPYPA
+                     SLSSSETHQLSQLVSAQVQAALQNFLQEQRQLAITERDEQRRLWNREWEHSLHKAEVS
+                     FTHKLEAVTAEYEAALRTFEAKRFSRCQDPDRTEWSDDQPHQLGALSDPLPQSTPMGS
+                     Q"
+     gene            complement(25981..26553)
+                     /locus_tag="DR_C0024"
+                     /db_xref="GeneID:1799907"
+     CDS             complement(25981..26553)
+                     /locus_tag="DR_C0024"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="NP_051694.1"
+                     /db_xref="GI:10957558"
+                     /db_xref="GeneID:1799907"
+                     /translation="MQDTPFPVTVSGQQRFELRRAHQFYLPLLSQRVPQPDAEAPEPT
+                     STVQVMPTAKAQLRGVLYSHGEHRGGPLFGKRGEPFEIHHAHLGGYSSLLKHDPLACS
+                     AEYLLGLTDAYRQCQPELDWVGHWLVWPNRRQPNLTDALEWIERAHELSLVSEEHCLL
+                     IVSWDEGRLSGSVAFAETDQRECRWVLPNF"
+     gene            27115..27714
+                     /locus_tag="DR_C0025"
+                     /db_xref="GeneID:1799911"
+     CDS             27115..27714
+                     /locus_tag="DR_C0025"
+                     /note="identified by sequence similarity; putative"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="ParA family chromosome partitioning ATPase"
+                     /protein_id="NP_051695.1"
+                     /db_xref="GI:10957547"
+                     /db_xref="GeneID:1799911"
+                     /translation="MRVYGITNVKGGSGKTHATVHLAYLASQRGERVAVLDLDPTRQS
+                     VNWIELAGLGLPAMPLDIKQDDLEGYIAQLRSDGDFDAVFIDTPANDRDATLETLLVS
+                     DVALIPVGVGTSDTGMLGTTERQVKRALQLRPSLKPYILINRARFAPARERETEAECA
+                     KTGIPVLQSRIPLRGNYQAAAGKTPTDEHYAEVWQEVNA"
+     gene            27711..28106
+                     /locus_tag="DR_C0026"
+                     /db_xref="GeneID:1799896"
+     CDS             27711..28106
+                     /locus_tag="DR_C0026"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="NP_051696.1"
+                     /db_xref="GI:10957557"
+                     /db_xref="GeneID:1799896"
+                     /translation="MSLPPPPRKKSQGSMPSMLDKNREVEDQQAQAEALALPELPEVP
+                     TTKVTFSPVTQDALDTFDDAYRQCVSSAVPSSAITWLMLYSPVWRILRSWPPSLSDCA
+                     EPEIRVDHLTLYLAVQGWRKGKVVFPSGI"
+     gene            28132..28872
+                     /locus_tag="DR_C0027"
+                     /db_xref="GeneID:1799919"
+     CDS             28132..28872
+                     /locus_tag="DR_C0027"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="NP_051697.1"
+                     /db_xref="GI:10957556"
+                     /db_xref="GeneID:1799919"
+                     /translation="MAPETYDEQLTRELMRLGVTSRLKNAPKFHFWEIGEGKREAYKG
+                     IDAALVAFQRREMRGEKLNQKEERAYEQLKEMFYDTEINPYTHNLYNEDQEASSSKPL
+                     MVGYTYKGDSFVLSNPKETTSRIREHFHPIRWKEFEDYGDWELLREVIPAMQVARVQL
+                     SIYEEQRWLYDERSQRAAESLAYRIEKVYPRHQLPKSIQVGEQQKAVFEEYVYKLDRG
+                     TRTNARRWFQETLAKLSGTRRNRKVTSI"
+     gene            complement(28929..29930)
+                     /locus_tag="DR_C0028"
+                     /db_xref="GeneID:1799890"
+     CDS             complement(28929..29930)
+                     /locus_tag="DR_C0028"
+                     /note="identified by sequence similarity; putative"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="transposase, putative"
+                     /protein_id="NP_051698.1"
+                     /db_xref="GI:10957537"
+                     /db_xref="GeneID:1799890"
+                     /translation="MKRCPNCGCRGQAAFPEHVPGQVQYGPRLHAFTTLLNVGHFIPL
+                     ERVTQLTDALFGASISDGTVALNINLASERLEPFEDDLKTGLRQQAVLHADETGAKVN
+                     GKLNWFHVACFARGTLYTLHEKRGYAALEAAGVLTDFTGVVVHDAWSTYFRLPGEHAL
+                     CNAHLLRELRKLDEHDRQPWAGELRRALQQVYHAQKTGTLTDEQRAVFYTRFDELVLA
+                     GLEANPVQEPVPKRRGKPKQLPGRNLALRCQQHRAAMLLFLERADVPFDNNQAERDIR
+                     MACVKRKVSGGFRSEVGGQAFCRVRSFISTLQKQGLSVWTGLVDVFRGVLPKLDFSC"
+     gene            30272..31138
+                     /locus_tag="DR_C0029"
+                     /db_xref="GeneID:1799922"
+     CDS             30272..31138
+                     /locus_tag="DR_C0029"
+                     /note="identified by sequence similarity; putative"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="transposase, putative"
+                     /protein_id="NP_051699.1"
+                     /db_xref="GI:10957538"
+                     /db_xref="GeneID:1799922"
+                     /translation="MGFFIALLVVHLPPGKVLLSLDRTNWEHGETPINFLVLGAVVHG
+                     FTLPLIWVPLDQSGNSHTYARMWLVLKLLRALPAKRWLGLVADREFIGAEWFRFLRRQ
+                     GIKRAIRIRQTDMLDDMKGKEWFEHVQHGHFHEIGEKVFVFGELMRVVATRSPVGDLS
+                     IIATDFSARKTWRLYKQRWSIECTFSSFKKRGFDLERTGMTERSRLQRLFGLVTLAWM
+                     FCLRLGVWLSQTWPIPVLKHGRRAVSLVRHGAQHLVDALRWKPQQFMAVLEVLIQPFC
+                     PPGAAESEVVTY"
+     gene            31946..33244
+                     /locus_tag="DR_C0030"
+                     /db_xref="GeneID:1799913"
+     CDS             31946..33244
+                     /locus_tag="DR_C0030"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="NP_051700.1"
+                     /db_xref="GI:10957554"
+                     /db_xref="GeneID:1799913"
+                     /translation="MSRSLTPAEAEQLSYENSRRLQLAAQARMLRGESGPLPPPAVRQ
+                     VPQKPEPPTLDTIKAENEEKIEALKKLGLYRKTPRMRPVISGYKPRKTWRPTVFPHQP
+                     GQYLTKLSRSVSREWRQILLSVSTASLSGGKLTGSQGRNLIRIVEELRKHCFMRVDAE
+                     GKPVEVREQVVQVVDGEDFCFARECGLSPRSFYRALNHPLAHLFIRTQKVQYVEAETR
+                     ARRNCATLFSVALYEPLMPEVLEDAYWEEPVELEENFVVPDFNCQDGGTKRRPLQNQK
+                     QKANCGKLTALLGGSSANALSGEARQDFLGWIDSARLVTKAADAPYHDAYDANLGGCL
+                     DRLRDTNPGLFEFAVQIAIHHDNPKVHEIAVVGYYKALIHLGVKRVRYWVQRVEKYRL
+                     QKQRVDNPGKLLTYHLNKEARKRTGFGLSDLGTEPGHYIS"
+     gene            complement(33740..33997)
+                     /locus_tag="DR_C0032"
+                     /db_xref="GeneID:1799918"
+     CDS             complement(33740..33997)
+                     /locus_tag="DR_C0032"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative transposase"
+                     /protein_id="NP_277102.1"
+                     /db_xref="GI:15789335"
+                     /db_xref="GeneID:1799918"
+                     /translation="MTLAWMFCLRLGVWLGQTWPIPVLKHGRKAVSLVRHGAQHLVEA
+                     LRWKPERFRAFLELLTRPFCPPGAAGDELSPTEALVNRVHL"
+     mobile_element  35253..36163
+                     /rpt_family="IS5"
+                     /mobile_element_type="insertion sequence:ISDra5B"
+                     /db_xref="ISFinder:ISDra5"
+     gene            35342..36154
+                     /locus_tag="DR_C0033"
+                     /db_xref="GeneID:1799892"
+     CDS             35342..36154
+                     /locus_tag="DR_C0033"
+                     /note="identified by sequence similarity; putative"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="transposase, putative"
+                     /protein_id="NP_051701.1"
+                     /db_xref="GI:10957539"
+                     /db_xref="GeneID:1799892"
+                     /translation="MLSERKPYKSDLDDETYLFILPYFLLAPEDAHQRVYPIREVLNA
+                     ALWIGRTGSQWEYLPHDFPPYKIVHQQLMRWFERGCFENLAHDLHSLVREDALKEGVP
+                     TVAIVDSRTLQSTPESGGRAGYDGGKRRKGSKIHAAVDTMGNVMTLLVTPGNEQDREQ
+                     VYDLCREVQQVTGDHIDVVIADQGYTGEQPQIDASLNDVELVVVKRPTGATGFVLLPL
+                     RWVVERTFAWTARFRRLSRDLERLQSSLLGFHWLAVSVTLLNKLKPILGSLA"
+     gene            36234..37388
+                     /locus_tag="DR_C0034"
+                     /db_xref="GeneID:1799886"
+     CDS             36234..37388
+                     /locus_tag="DR_C0034"
+                     /note="identified by sequence similarity; putative"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="coenzyme PQQ synthesis protein, putative"
+                     /protein_id="NP_051702.1"
+                     /db_xref="GI:10957540"
+                     /db_xref="GeneID:1799886"
+                     /translation="MVAFLRGPTHVDFNLTNGCNLACSHCHSASGPKLDNELKTEEIL
+                     QTIDALHIIGALKIAFAGGEPFIRRDIFNILSHACSLPGWGISVITNGFYLNSLTVEK
+                     LKAQCPNLSINISVDGSTPAGYSTLRKQLNRPDADPQPLFERVLSGIDNVVRSGMSNS
+                     VNFTITKATLHDIEATYELVVDRIGADNMVAIKFFPGGYGKEHLDLYEIPYDMWDEHF
+                     VALTRAKLGGKLERLQISVPAAWEFYLPLINAGIPIEEAEEVWGYRSPLREDMYARMR
+                     EVGDVAGISELCISSDGEVYPSVLLVGEKTMSCGNLREHSLQRIWQESSCLMALRELK
+                     LFDLNGNCTKCGVREVCGGGSRSRAFSREGDFRDMDYVCPIVEVPLVSHA"
+     gene            37385..37726
+                     /locus_tag="DR_C0035"
+                     /db_xref="GeneID:1799908"
+     CDS             37385..37726
+                     /locus_tag="DR_C0035"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="NP_051703.1"
+                     /db_xref="GI:10957565"
+                     /db_xref="GeneID:1799908"
+                     /translation="MKTISPQVLSSACTSVRYYREEQGCEIRIASKVVFGDDQLACLL
+                     DLLLSQVDGATLVKRVHMLIGGKEPAKSVEVALGVLQQLEDEVGITKSVWPNAAPLLA
+                     FRNSNGLDATP"
+     gene            37723..39261
+                     /locus_tag="DR_C0036"
+                     /db_xref="GeneID:1799887"
+     CDS             37723..39261
+                     /locus_tag="DR_C0036"
+                     /note="identified by sequence similarity; putative"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="oxidative cyclase, putative"
+                     /protein_id="NP_051704.1"
+                     /db_xref="GI:10957541"
+                     /db_xref="GeneID:1799887"
+                     /translation="MTSDVLVIAPFRRPTFRTAISHLYPVTEPWDSPPLITCGAIQEA
+                     GLEVDYVALQNIFNGYDPERDGRDLNEILGVLHPKVVIFSSDHFIPSRSTASIYGISL
+                     VSKIFKSRERPPLIGVCGRLATVAAQRLFAEVPEVDFAVIGESDGVIGEVVADLLAAD
+                     MEETSRRHGYVHTRTAPARDIAYMGDVNDVALPAFALALPSIAQYRSRFGLEENPLPF
+                     SLRTSFGCKFKCRFCAGVPHWLDYRKKSPDRVQAELDAFLNQLGDQARISFLEDEIFT
+                     RDPEHVAAITALLKERNIYLDGLYTHSTLLTPEIAADLCTVADRVFTGLDNADDQILR
+                     KMGKGQLLDTVLDAVEKAQAASLKVHLEWIIGTPEETLDTLVTSLSTIFNLLSTHAVE
+                     SINTYVYCPHPGTDYTVNAKKYRMRVLDTFDGIQESGGYPAFDTANLTRNQIYTAYLM
+                     SQLVIAEVTAARQHSSIPRAVVPASRSELLRLFGMIGEGQVAFDFDEAPVGRVSYPEG
+                     TSRA"
+     gene            39258..41369
+                     /locus_tag="DR_C0037"
+                     /db_xref="GeneID:1799888"
+     CDS             39258..41369
+                     /locus_tag="DR_C0037"
+                     /note="identified by sequence similarity; putative"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="nodulation protein-related protein"
+                     /protein_id="NP_051705.1"
+                     /db_xref="GI:10957542"
+                     /db_xref="GeneID:1799888"
+                     /translation="MNRPQYVLGVSMSNHDRSACLLRDGEIVAAVAEERLDRRKKSEG
+                     FYEQHLGSAVLPPYRAITAVLHEAGLTVGDIDRVVCGRSILPCRDDLLNQFPFPPEKV
+                     VEIPVPGHHIAHACSAFFTSPFENAAVLVLDEQGHRLEDDRFERMTWYTAHGTQVVPI
+                     RQFYGDSETLSLGMFMDAFATFTGLSEAKQPSAGKLMGLAAVGQERQQWPSLVTTVDD
+                     GDAYVRLSELDSFFASVLPRRVEFEGGIVRQLDDLLAKYWPVHWSSNLAADLAFKAQA
+                     ELEGALLHINRHLKAQVGSENLAYAGGVALNCTANAKLSLAGWRDVFVHPAATDDGNA
+                     VGLAYYGQRSLAGKHRRPELFNPMTGPRYSQKAVEEAVHRFGLGEWLERTDMSDEAAE
+                     RLSRGETLCWFLGRSEWGPRALGGRSIVADPTVPGIKALINSRIKHREPFRPFGISGT
+                     PRGVEQALDVGAALPSLAPYMLAVARARDTRLSQLQHQDGSIRYQIVQRAWQPEWFGM
+                     IEAFGRRSGVECIVNTSFNVLGEPLVETPSDAVRQFVLSGAQALLINGFRLDSADVPR
+                     EYLRQIRRQAFQAGGQHPLKVALGIEAAGYCAAAITFLEDQEFGEEAAEAEGKQVLRA
+                     YYSLHLRGALLKNEHERSTELSKYLLAMAEFDGAVLEAASVLEATEQPETQAMGQFFT
+                     HIGRYGSAFRHASGIWAGTDG"
+     gene            41308..42591
+                     /locus_tag="DR_C0038"
+                     /db_xref="GeneID:1799909"
+     CDS             41308..42591
+                     /locus_tag="DR_C0038"
+                     /note="identified by sequence similarity; putative"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="NP_051706.1"
+                     /db_xref="GI:10957543"
+                     /db_xref="GeneID:1799909"
+                     /translation="MDVMVRPSGMPAESGQEPMADGPVAAPFMRLSSKLRDDLYEEVR
+                     HDKTWHQRLTWSRGEWTPGSLTSLASRFERSLRWNKVKPEKENFDSPRPTIQSQSICR
+                     EHLTGTAPEFLSEETLRILTEAVGSAQIKEAVIDMECWERTFLNSEGCSVTTQGKWFD
+                     FYASYNTGAALVRWRDGTSTQEEVSRLARPPLPILGRGVTWSEPRTIDTVRYDLVLLS
+                     PTASSVVIHELIGHGCEHFREKIVGLRVGPEELRVVAFPKNGSGFDDEGTPSEEIVLV
+                     ENGIVRHAVRDRATGGMAPFSGLTKVASHGVKPGSRCTHLKAEGESSQEGVTGVPAER
+                     TVWIEHFSAANYHSGRAFFRSGLAWVGSREELLYPLMPFTMSIDIYELASLLWHLDGQ
+                     TERARSGLCNKDGEFLPTFNFAPKIALRPVVSIRP"
+     gene            42686..43627
+                     /locus_tag="DR_C0039"
+                     /db_xref="GeneID:1799917"
+     CDS             42686..43627
+                     /locus_tag="DR_C0039"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="NP_051707.1"
+                     /db_xref="GI:10957555"
+                     /db_xref="GeneID:1799917"
+                     /translation="MRVRILDDFGLRVYVGPGGADEELLFERTLESPCQKGIGLALSG
+                     TVKCTRFEPEDALALGENPLRPFIGMVTTTRQDSFRATLRTFEENVLEWDWEQHSCHT
+                     HAKDRDHITQAHLQMEELLWSPSALSGLLYEAVVKRLQSQERWGKGLFVGELNRCGAA
+                     FDLDGTPHSSAAFVMNGEFVMSPRGRLAQEGDTHGSSGHGGLSKPFLTDLYIGSYSCN
+                     PPLLPLIKAGVPFVESVHELSGDMFALDLSVFEEGNTTVANNIGSLVVGWRDEFSWLT
+                     FLNSLRWYGSLEHGVEAWISSWALSGPYTTYFQEWCF"
+     gene            43638..44846
+                     /locus_tag="DR_C0040"
+                     /db_xref="GeneID:1799901"
+     CDS             43638..44846
+                     /locus_tag="DR_C0040"
+                     /note="identified by sequence similarity; putative"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="multidrug-efflux transporter, putative"
+                     /protein_id="NP_051708.1"
+                     /db_xref="GI:10957544"
+                     /db_xref="GeneID:1799901"
+                     /translation="MRKNVNNTLWILLAGSIVSETGMWIGFVGTLQFLQQVLSSTFNQ
+                     ALFLIVPSLLGLAIGPIAGRVVDQHAKQLILKVSSALRILAPALMLLAIEQRSIVFAV
+                     ISTLIGGLVTSFYYPALRATFPLVASGQALAMANMWNFNLITLARIIGTTFGGLLIVN
+                     DNLEVSYQLAMLSYVVIALQTWLIRIDEDATSNRHNQVDSRKMAFTEVLRLIGNSREL
+                     VFALTINLIPYIFIAGFNIFVIGISTLQQNVGIKGALYTVEGVGILISSLFYRRMIKK
+                     FDVKNIILATAFLICAAELFLLGAGNKWLSILGFAIFGISGGFFIPTLQTFLQNSVEN
+                     TYHGRLFSLKRMLETGITLVTLPFYGIVIDRLGITSLMAIILTLSTAIYLFAIAQLVG
+                     MNSRLAGERR"
+     gene            44871..45575
+                     /locus_tag="DR_C0041"
+                     /db_xref="GeneID:1799915"
+     CDS             44871..45575
+                     /locus_tag="DR_C0041"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="NP_051709.1"
+                     /db_xref="GI:10957564"
+                     /db_xref="GeneID:1799915"
+                     /translation="MTDTLSLSTLTGWKKVKDTLEDYNYRLLSFEERGTQYPSFFLAF
+                     DLLDPSQHLKVRGALTRGLSGPRLTRLEQELCHKYEGRKANNGPEKVDVIALIRDIVF
+                     DCVGIPKEEALEILATYTVSQRYLKHEGEQSPEGRYALQLALERIGEALGDRPRLSSS
+                     FVRFLDEDATYTEEQKLYLVVPFFDMLVAEKTFELPIALAKALSECPGQTPIVSSEFA
+                     ITSGTSMTISTNVLAS"
+CONTIG      join(AE001827.1:1..45704)
+//
+
