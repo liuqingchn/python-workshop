@@ -1,7 +1,7 @@
 
-import matplotlib.pyplot as plot
 import pandas
 import seaborn
+from matplotlib import pyplot
 
 # Data
 crimes = pandas.read_csv("crimeRatesByState2005.csv")
@@ -11,16 +11,16 @@ mpg = pandas.read_csv("mpg.csv")
 seaborn.distplot(crimes["robbery"])
 
 # Save figure and then clear plot
-plot.savefig("robbery.png")
-plot.clf()
+pyplot.savefig("robbery.png")
+pyplot.clf()
 
 
 # Plot of 2 numerical variables
 seaborn.jointplot(x=crimes["robbery"], y=crimes["murder"])
 
 # Save figure and then clear plot
-plot.savefig("robbery_murder.png")
-plot.clf()
+pyplot.savefig("robbery_murder.png")
+pyplot.clf()
 
 
 
@@ -28,6 +28,6 @@ plot.clf()
 seaborn.boxplot(x=mpg["class"], y=mpg["cty"])
 
 # Save figure and then clear plot
-plot.savefig("class_cty.png")
-plot.clf()
+pyplot.savefig("class_cty.png")
+pyplot.clf()
 
