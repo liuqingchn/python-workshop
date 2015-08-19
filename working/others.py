@@ -22,3 +22,20 @@ def index(L, letter):
          idx.append(j)
    return idx
 
+import math
+
+class Vector:
+   def __init__(self, a, b):
+      print("i am in __init__")
+      self.x = a
+      self.y = b
+
+   def norm(self):
+      return math.sqrt(self.x*self.x + self.y*self.y)
+
+   def add(self, c):
+      return self.x + self.y + c
+
+my_vector = Vector(3,4)
+print(my_vector.norm())
+print(my_vector.add(5))

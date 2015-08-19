@@ -25,7 +25,7 @@ pyplot.clf()
 
 
 # Plot of a categorical (x) versus a numerical (y)
-seaborn.boxplot(x=mpg["class"], y=mpg["cty"])
+seaborn.violinplot(x=mpg["class"], y=mpg["cty"])
 
 # Save figure and then clear plot
 pyplot.savefig("class_cty.png")
