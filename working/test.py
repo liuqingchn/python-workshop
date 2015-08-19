@@ -1,6 +1,13 @@
 ## test.py
-import stuff
+import argparse
+parser = argparse.ArgumentParser()
+parser.add_argument("input_file")
+args = parser.parse_args()
 
-L = [0,1,2,3,4,7]
-e = stuff.double(L)
-print(">>>", e)
+rows = []
+f = open(args.input_file, "Ur")
+for line in f:
+   rows.append( line.strip().split(',') )
+f.close()
+print(rows)
+
