@@ -17,7 +17,6 @@ f = open(args.input_file, "Ur")
 for line in f:
    if line.strip() != '':
       row = line.strip().split(',')
-      ## some addtional checks
       if i>0 and converter is not None:
          row = [ converter[i](row[i]) for i in range(len(row)) ]
       rows.append(row)
