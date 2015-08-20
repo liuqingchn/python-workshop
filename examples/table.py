@@ -1,8 +1,17 @@
 
 class Table:
-   def __init__(self, header, rows):
-      self.rows = [ dict(zip(header,r)) for r in rows ]
+   ## TODO: remove " from headers
+   def __init__(self, header, rows, types):
+      if types is not None:
+         self.types = [float if t=='n' else str for t in types]
+      else:
+         self.types = [str] * len(header)
+
+      self.rows = [ self.make_row(header,row) for row in rows ]
       self.columns = {}
+
+   def make_row(self, h, r):
+      return { h[i] : self.types[i](r[i]) for i in range(len(r)) }
 
    ## get column by key
    def __getitem__(self, key):
@@ -22,8 +31,19 @@ class Table:
       else:
          raise StopIteration
 
+   def save(self):
+      pass
 
 ## Input: a file and separator string
 ## Output: a Table object
-def read(file, separator="\t", types=None):
-   pass
+## TODO: deal with '\t'.  How?
+def read(input_file, types=None):
+   rows = []
+   header = ""
+   f = open(input_file, "Ur")
+   for line in f:
+      if line.strip() != '':
+         rows.append(line.strip().split(','))
+   f.close()
+   header = rows.pop(0)
+   return Table(header, rows, types)
