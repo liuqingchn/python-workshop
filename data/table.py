@@ -35,14 +35,14 @@ class Table:
 
 ## Input: a file and separator string
 ## Output: a Table object
-## TODO: deal with '\t'.  How?
 def read(input_file, types=None):
    rows = []
    header = ""
+   sep = ',' if input_file.endswith('.csv') else '\t'
    f = open(input_file, "Ur")
    for line in f:
       if line.strip() != '':
-         rows.append(line.strip().split(','))
+         rows.append(line.strip().split(sep))
    f.close()
    header = rows.pop(0)
    return Table(header, rows, types)
