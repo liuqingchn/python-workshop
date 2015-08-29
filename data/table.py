@@ -1,4 +1,6 @@
-from sklearn.cluster import KMeans
+from sklearn.cluster import KMeans, DBSCAN, SpectralClustering, AgglomerativeClustering, MeanShift
+from sklearn.preprocessing import StandardScaler
+from sklearn.neighbors import kneighbors_graph
 
 class Table:
    def __init__(self, header, rows, types):
@@ -32,22 +34,52 @@ class Table:
       else:
          raise StopIteration
 
-   def kmeans(self, columns, k=3):
-   	rows = [ [r.get(c) for c in columns] for r in self.rows ]
-   	est = KMeans(n_clusters=k)
-   	results = est.fit_predict(rows)
-   	for i in range(len(self.rows)):
-   		self.rows[i]['KMEANS'] = results[i]
+   def cluster(self, columns, **argv):
+      option = {}
+      Estimator = dict(kmeans=KMeans, meanshift=MeanShift, dbscan=DBSCAN, hierarchical=AgglomerativeClustering, spectral=SpectralClustering)
 
-   def dbscan(self):
-   	pass
+      if argv.get('method') is None:
+         method = 'meanshift' if argv.get('clusters') is None else 'kmeans'
+      else:
+         if argv.get('method') not in Estimator:
+            raise Exception("Unknown clustering method: " + argv.get('method'))
+         method = argv.get('method', 'meanshift')
+
+      if method == 'meanshift':
+         pass
+      elif method == 'dbscan':
+         option['eps'] = argv.get('spacing', 0.3)
+      else:
+         if argv.get('clusters') is None:
+            raise Exception("Must specify 'clusters', which is a number greater than 1.")
+         option['n_clusters'] = argv.get('clusters')
+         if argv.get('method') == 'hierarchical':
+            option['linkage'] = argv.get('linkage', 'average')
+            option['affinity'] = argv.get('affinity', 'euclidean')
+         elif argv.get('method') == 'spectral':
+            option['affinity'] = argv.get('affinity', 'rbf')
+
+      est = Estimator.get(method)(**option)
+
+      ## Select data
+      rows = [ [r.get(c) for c in columns] for r in self.rows ]
+      if argv.get('scaled') == True:
+         rows = StandardScaler().fit_transform(rows)
+
+      ## Cluster and store results
+      labels = est.fit_predict(rows)
+
+      print("\tClustering method: ", method, "\tNumber of clusters: ", len(set(labels)))
+
+      for i in range(len(self.rows)):
+         self.rows[i]['_' + method + '_'] = labels[i]
 
    def svm(self):
    	pass
 
    def random_forrest(self):
    	pass
-   	
+
    def save(self):
       pass
 
