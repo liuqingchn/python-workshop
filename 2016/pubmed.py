@@ -17,8 +17,5 @@ def Search(query, num_of_articles=5):
 	EntrezFetchParams['id'] = ','.join(ids)
 	response = requests.get(EntrezFetch, params=EntrezFetchParams)
 	root = etree.fromstring(response.text)
-	# return root.findall('./PubmedArticle/MedlineCitation/Article/')
 	return root
 
-root = Search('breast cancer')
-print(root)
