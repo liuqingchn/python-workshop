@@ -11,20 +11,14 @@ def Search(query, num_of_articles=5):
 	EntrezSearchParams['retmax'] = num_of_articles
 	EntrezSearchParams['term'] = query
 	response = requests.get(EntrezSearch, params=EntrezSearchParams)
-	root = etree.fromstring(response.content)
+	root = etree.fromstring(response.text)
 	ids = [ id.text for id in root.findall('./IdList/Id') ]
 
 	EntrezFetchParams['id'] = ','.join(ids)
 	response = requests.get(EntrezFetch, params=EntrezFetchParams)
-	return etree.fromstring(response.content)
+	root = etree.fromstring(response.text)
+	# return root.findall('./PubmedArticle/MedlineCitation/Article/')
+	return root
 
-class Article(object):
-	def __init__(self, articles=[]):
-		self.articles = articles
-
-	def keywords(self, k):
-		pass
-
-
-a = Search('breast cancer')
-print(a[0].findall('./MedlineCitation'))
+root = Search('breast cancer')
+print(root)
