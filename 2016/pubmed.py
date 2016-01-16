@@ -17,5 +17,18 @@ def Search(query, num_of_articles=5):
 	EntrezFetchParams['id'] = ','.join(ids)
 	response = requests.get(EntrezFetch, params=EntrezFetchParams)
 	root = etree.fromstring(response.text)
-	return root
+	return Pubmed(root)
+
+class Pubmed:
+	def __init__(self, r):
+		self.root = r
+		self.articles = r.findall('./PubmedArticle/MedlineCitation/Article')
+
+	def titles(self):
+		t = []
+		for i in self.articles:
+			t.append(i.find('./ArticleTitle').text)
+		return t
+
+
 
